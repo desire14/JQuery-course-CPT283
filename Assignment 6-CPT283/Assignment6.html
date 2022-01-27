@@ -1,0 +1,150 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8">
+    <title>Assignment6</title>
+	<link href="assignment6.css" rel="stylesheet">
+	
+	<style>
+	</style>
+    
+	<script src="jquery-3.6.0.min.js"></script>
+    <script src="assignment6.js"></script>
+	
+	<script>
+	</script>
+
+</head>
+<body>
+    <img src="logo.jpg">
+    <h1 id="account">Create an Account</h1>
+    
+
+    <form id="custForm" action="FormProcessor.html" method="get">
+    <h2>Your Preferences</h2>
+    <label>Most Frequently Used Operating Systems: </label>
+    <select id="system" name="system">
+        <option value="window8">Window 8</option>
+        <option value="window7">Window 7</option>
+        <option value="droid">Android</option>
+        <option value="mac">Mac OS</option>
+        <option value="other">Other</option>
+    </select>
+    <label>Most Frequently Used Software: </label>
+    <select id="system" name="system">
+        <option value="games">Games</option>
+        <option value="business">Business Applications</option>
+        <option value="programming">Programming Applications</option>
+        <option value="social">Social Networking</option>
+        <option value="other2">Other</option>
+    </select>
+    
+    <h2>Customer Information</h2>
+    <h4>*Required Information</h4>
+    
+    <label>First Name:* </label>
+        <input type="text" name="fname" id="fname">
+        <span class="error" id="errfname"></span>
+    <br><br>
+
+    <label>Last Name:* </label>
+        <input type="text" name="lname" id="lname">
+        <span class="error" id="errlname"></span>
+    
+    <br><br>
+
+    <label>Street Address 1:* </label>
+        <input type="text" name="address1" id="address1">
+        <span class="error" id="erraddress1"></span>
+    <br><br>
+
+    <label>Street Address 2:* </label>
+        <input type="text" name="address2" id="address2">
+        <span class="error" id="erraddress2"></span>
+    <br><br>
+
+    <label>City:* </label>
+        <input type="text" name="city" id="city">
+        <span class="error" id="errcity"></span>
+    <br><br>
+
+    <label>State:* </label>
+        <input type="text" name="state" id="state">
+        <span class="error" id="errstate"></span>
+    <br><br>
+
+    <label>Zip Code:* </label>
+        <input type="text" name="zip" id="zip">
+        <span class="error" id="errzip"></span>
+    <br><br>
+
+    <label>Phone:* </label>
+        <input type="text" name="phone" id="phone">
+        <span class="error" id="errphone"></span>
+    <br><br>
+
+    <label>Email:* </label>
+        <input type="text" name="email" id="email">
+        <span class="error" id="erremail"></span>
+    <br><br>
+    <!--Paymment-->
+    <fieldset>
+        <legend>Payment Method</legend>
+        <label for="none">None</label>
+            <input type="radio" name="cardtype" id="none">
+        <label for="visa">Visa</label>
+            <input type="radio" name="cardtype" id="visa">
+        <label for="mc">Master Card</label>
+            <input type="radio" name="cardtype" id="mc">
+        <label for="ae">American Express</label>
+            <input type="radio" name="cardtype" id="ae">
+    </fieldset>
+    <br>
+
+    <label>Credit Card Number:* </label>
+        <input type="text" name="number" id="number">
+        <span class="error" id="errnumber"></span>
+    <br><br>
+
+    <label>Expiration Month: </label>
+        <select name="month" id="month">
+            <option value="">Month</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+</select>
+
+<label>Expiration Year: </label>
+    <select name="year" id="year">
+        <option value=" ">Year</option>
+        <option value="2015">2015</option>
+        <option value="2016">2016</option>
+        <option value="2017">2017</option>
+        <option value="2018">2018</option>
+        <option value="2019">2019</option>
+        <option value="2020">2020</option>
+    </select>
+    <span class="error" id="errdate"></span>
+    <br><br>
+
+    <input type="submit" value="Submit Information"> 
+
+
+
+    </form>
+    
+ 
+ 
+</body>
+</html>
+	
