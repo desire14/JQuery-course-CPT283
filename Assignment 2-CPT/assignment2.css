@@ -1,0 +1,19 @@
+body {
+    background-color: gray;
+}
+
+.Christmas {
+    font-weight: bold;
+    font-family: Arial;
+    font-size: 28pt;
+    color: red;
+    background-color: green;
+} 
+
+.Easter {
+    font-style: italic;
+    font-family: Times;
+    font-size: 28pt;
+    color: pink;
+    background-color: purple;
+} 
